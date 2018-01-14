@@ -1,0 +1,426 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+/* MOJ KOD */
+
+
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+header nav{
+    width:100%;
+    height:60px;
+    background-color:#fff;
+}
+
+
+header nav ul{
+    float: left;
+}
+
+header nav ul li{
+    float:left;
+    list-style: none;
+}
+
+header nav ul li a{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+}
+
+header .nav-login{
+    float: right;
+    margin-left: 10px;
+}
+
+header .nav-login form{
+    float: left;
+    padding-top: 15px;    
+}
+
+header .nav-login form input{
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+header .nav-login form button{
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+b2{
+    margin-right: 50%;
+}
+
+header .nav-login form button:hover{
+    background-color: #ccc;
+
+}
+
+header .nav-login a{
+    display: block;
+    width:60px;
+    height:60px;
+    border:none;
+    float: left;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+
+
+.main-container{
+    padding-top: 40px;
+}
+
+.main-container h2{
+    font-family: arial;
+    font-size: 40px;
+    color: #111;
+    line-height:50px;
+    text-align: center;
+}
+
+/* SIGNUP.PHP */
+
+.signup-form{
+    width:400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+
+.signup-form button{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover{
+    background-color: #111;
+
+}
+
+
+
+
+
+/* TABELA DIO  */
+
+
+
+
+#big_wrapper #pregled{
+    margin-top: 100px;
+}
+
+#big_wrapper{
+    max-width:900px;
+    display:-webkit-box;   /* i boxovi unutar "big_wrapper-a" mogu mijenjati veličinu tj. imaju svojstvo "box" */
+    -webkit-box-orient: vertical;    /* svi elementi su postavljeni jedan iznad-ispod drugog */
+    -webkit-box-flex: 1;   /* da elementi budu fleksibilni, 1-fleksibilno/0-fiksirano mijenjanjem veličine prozora, mijenja se i veličina boksa */
+
+}
+
+
+
+
+#sto1 {
+    float:left;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 49%;
+}
+
+#sto1 td, #sto1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#sto1 tr:nth-child(even){background-color: #f2f2f2;}
+
+#sto1 tr:hover {background-color: #ddd;}
+
+#sto1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+#sto2 {
+    margin-top: -62px;
+    float:right;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 47%;
+}
+
+#sto2 td, #sto2 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#sto2 tr:nth-child(even){background-color: #f2f2f2;}
+
+sto2 tr:hover {background-color: #ddd;}
+
+#sto2 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dugmeUnos{
+    
+}
+
+.button b1{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.unos{
+    display: -webkit-box;  
+    -webkit-box-pack:center;
+    width: 500px;
+    clear: both;
+    padding-left: 36%;
+}
+
+.unos button {
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:black;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#black;
+	font-family:Arial;
+	font-size:19px;
+	padding:10px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+        margin-left: 27%;
+}
+.unos button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, black), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, black 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, black 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, black 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, black 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, black 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr='#7892c2',GradientType=0);
+	background-color:black;
+}
+.unos button:active {
+	position:relative;
+	top:1px;
+}
+
+fieldset{
+    border:1px black solid;
+    margin-top:55px;
+}
+
+.unos input{
+    margin-left: 4px;
+    width: 95%;
+    clear: both;
+    
+}
+
+.fot{
+    font-family: Arial;
+    font-size: 35px;
+    position: absolute;
+    color:blue;
+    bottom:0;
+}
+
+
+
+
+
+
